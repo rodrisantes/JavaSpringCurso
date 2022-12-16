@@ -1,58 +1,28 @@
 package com.curso.curso.Models;
 
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "usuarios")
+
 public class Usuario {
+    @Getter @Setter @Column(name = "name")
     private String nombre;
-    private String apellido;
+    @Getter @Setter @Column(name = "lastname")
+    private String lastName;
+    @Getter @Setter @Column(name = "email")
     private String email;
+    @Getter @Setter @Column(name = "telephone")
     private Integer telephone;
+    @Getter @Setter @Column(name = "password")
     private String password;
+    @Getter @Setter @Column(name = "id")
     private Long id;
 
-
-    public Long getId() {
-        return id;
-    }
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Integer getTelephone() {
-        return telephone;
-    }
-
-    public void setTelephone(Integer telephone) {
-        this.telephone = telephone;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }
+

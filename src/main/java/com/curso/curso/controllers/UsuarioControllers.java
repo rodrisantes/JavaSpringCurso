@@ -20,7 +20,7 @@ public class UsuarioControllers {
         Usuario usuario = new Usuario();
         usuario.setId(123L);
         usuario.setNombre("Rodrigo");
-        usuario.setApellido("Santesteban");
+        usuario.setLastName("Santesteban");
         usuario.setEmail("rodrisantes89@gmail.com");
         usuario.setTelephone(1126820158);
 
@@ -33,21 +33,21 @@ public class UsuarioControllers {
         Usuario usuario = new Usuario();
         usuario.setId(123L);
         usuario.setNombre("Rodrigo");
-        usuario.setApellido("Santesteban");
+        usuario.setLastName("Santesteban");
         usuario.setEmail("rodrisantes89@gmail.com");
         usuario.setTelephone(1126820158);
 
         Usuario usuario2 = new Usuario();
         usuario2.setId(241123L);
         usuario2.setNombre("Sebastian");
-        usuario2.setApellido("Gonzalez");
+        usuario2.setLastName("Gonzalez");
         usuario2.setEmail("sebagonzalez89@gmail.com");
         usuario2.setTelephone(1123312124);
 
         Usuario usuario3 = new Usuario();
         usuario3.setId(231342L);
         usuario3.setNombre("Adrian");
-        usuario3.setApellido("Perez");
+        usuario3.setLastName("Perez");
         usuario3.setEmail("adrianperez89@gmail.com");
         usuario3.setTelephone(1124432123);
 
